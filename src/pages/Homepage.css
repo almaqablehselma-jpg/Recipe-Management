@@ -1,0 +1,38 @@
+
+
+.home-page {
+  min-height: 100vh;
+  padding: 55px 6%;
+  background: #f7f8f2;
+  color: #344638;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.home-page h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #355b43;
+  margin: 15px 0;
+}
+
+.home-page p {
+  color: #778477;
+  font-size: 17px;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 600px) {
+  .home-page {
+    padding: 35px 18px;
+  }
+
+  .home-page h1 {
+    font-size: 30px;
+  }
+
+  .home-page p {
+    font-size: 15px;
+  }
+}

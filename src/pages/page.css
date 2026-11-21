@@ -1,0 +1,51 @@
+
+.form-page,
+.about-page {
+  min-height: 65vh;
+  padding: 55px 20px;
+  background: #f7f8f2;
+  color: #344638;
+  text-align: center;
+}
+
+.form-page h1,
+.about-page h1 {
+  color: #355b43;
+  margin-bottom: 15px;
+}
+
+.form-page p,
+.about-page p {
+  color: #778477;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.form-page form {
+  max-width: 420px;
+  margin: 25px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-page input {
+  padding: 14px;
+  border: 1px solid #dce5d8;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.form-page button {
+  padding: 14px;
+  border: none;
+  border-radius: 10px;
+  background: #42634a;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-page button:hover {
+  background: #304b36;
+}
