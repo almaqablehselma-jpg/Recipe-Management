@@ -1,9 +1,15 @@
 # AI-USE Declaration
 
+Tool used by all members: Claude (Anthropic).
+
 ## Haneen
-- Tool used: Claude (Anthropic)
-- Purpose: Help writing the search and sort feature, and guidance for deploying the front end on Render.
-- Affected files/features:
-  - src/pages/HomePage.jsx: search by name/category and sorting by prep time/name, working together using filter() and sort().
-  - Render Static Site deployment setup (build command and publish directory).
-- Notes: I reviewed the code and can explain and modify it.
+- Purpose: help writing search/sort and deploying on Render.
+- Affected: src/pages/HomePage.jsx, Render deployment setup.
+
+## Dina
+- Purpose: help and fixing problems while building her part.
+- Affected: src/data/recipes.js, src/components/RecipeCard, RecipeList.
+
+## Selma
+- Purpose: help and fixing problems while building her part.
+- Affected: src/App.jsx, src/components/navbar, src/pages.
