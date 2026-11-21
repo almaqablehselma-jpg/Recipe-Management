@@ -28,7 +28,7 @@ function App() {
       {page === "#/login" ? <Login /> :
        page === "#/register" ? <Register /> :
        page === "#/about" ? <About /> :
-       <Homepage />}
+       <HomePage />}
     </>
   );
 }
